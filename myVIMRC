@@ -1,0 +1,17 @@
+This vimrc is dilivered by http://wiki.csie.ncku.edu.tw/vim/vimrc.
+
+set number
+set ai
+set cursorline
+set bg=light
+set tabstop=4
+set shiftwidth=4
+set ruler
+set formatoptions+=r
+set history=100
+set incsearch
+
+syntax on
+syntax enable
+colorscheme monokai
+
