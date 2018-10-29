@@ -99,9 +99,9 @@ set ruler
 set formatoptions+=r
 set history=100
 set incsearch
+set belloff=all
 
 syntax on
 syntax enable
-colorscheme monokai
 
 
