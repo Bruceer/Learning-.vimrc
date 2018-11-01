@@ -100,8 +100,14 @@ set formatoptions+=r
 set history=100
 set incsearch
 set belloff=all
+set noexpandtab
 
 syntax on
 syntax enable
 
+set cursorline
+hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darked guifg=white
+
+set cursorcolumn
+hi CrusorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darked guifg=white
 
